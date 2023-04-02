@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+    <title>html4</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+    <h1> <b> Formular </b> </h1>
+	<img src="books.jpg" alt="carti poza" width="128" height="128">
+        
+    <div>
+		<div style="margin: auto;">
+		
+		<textarea rows="3" cols="100" readonly>
+        "Cu c&#226;t vei citi mai mult, cu at&#226;t vei &#351;ti mai mult. Cu c&#226;t vei &#238;nv&#259;&#355;a mai mult despre lume, cu at&#226;t vei c&#259;l&#259;tori mai mult…"
+		-Dr Seuss
+        </textarea>
+		</div>
+		<form action="#" method="get">
+        <table border="1">
+            <tr>
+                <th  colspan="4">&#206;nchirieri</th>
+            </tr>
+            <tr>
+                <th>Nume</th>
+                <td> <input type="text"> </td>
+                <th>Dat&#259; &#238;nchiriere</th>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <th>Prenume</th>
+                <td> <input type="text"> </td>
+                <th>Dat&#259; returnare</th>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td> <input type="text"> </td>
+                <th>Num&#259;r c&#259;r&#355;i</th>
+                <td> <input type="text"> </td>
+            </tr>
+            <tr>
+                <th>Num&#259;r telefon</th>
+                <td> <input type="text"> </td>
+                <th>Abonament</th>
+                <td> 
+				<input type="radio" name="abonament" id="da">
+                <label for="da">da</label>
+                <input type="radio" name="abonament" id="nu">
+                <label for="nu">nu</label> </td>
+            </tr>
+            <tr>
+                <th>Tip &#238;nchiriere</th>
+                <td>
+                    <select>
+                        <option>Default</option>
+                        <option>Acas&#259;</option>
+                        <option>&#206;n bibliotec&#259;</option>
+                    </select>
+                </td>
+                <th>Loca&#355;ie</th>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <th>Cluj</th>
+                            <th colspan="2">Sibiu</th>                    
+                        </tr>
+                        <tr>
+                            <th>M&#259;r&#259;&#351;ti</th>
+                            <th>Centru</th>
+							<th>Terezian</th>
+							
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+        </table>
+		</form>
+		
+    </div>
+	
+	<form action="#" method="get">
+    <table  border="1">
+        <tr>
+            <th colspan="4">C&#259;r&#355;i dorite</th>
+        </tr>
+		<tr>
+            <th rowspan=2>Nr</th>
+            <th rowspan="2">Titlu</th>
+			<th  colspan="2">Autor</th>
+           
+        </tr>
+        <tr>
+           
+            <th>Nume</th>
+			<th>Prenume</th>
+           
+        </tr>
+        <tr>
+            <th>1</th>
+            <td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			
+            
+        </tr>
+        <tr>
+            <th>2</th>
+            <td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+            
+        </tr>
+		<tr>
+            <th>3</th>
+            <td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+			<td> <input type="text"> </td>
+            
+        </tr>
+    </table>
+	</form>
+	
+	
+	
+	<form action="#" method="get">
+	<table border="1">
+            <tr>
+                <th colspan="2">Finalizare</th>
+            </tr>
+            <tr >
+                <th>Cerin&#355;e suplimentare</th>
+				<td> 
+				<input type="checkbox" name="cerinte" id="prelungire">
+                <label for="prelungire">prelungire abonament</label>
+                <input type="checkbox" name="cerinte" id="anulare">
+                <label for="anulare">anulare &#238;nchiriere</label>
+                <input type="checkbox" name="cerinte" id="creare">
+                <label for="creare">&#238;nchiriere sal&#259; lectur&#259;</label>
+                <br>
+
+                <select>
+                    <option>O zi</option>
+                    <option>O lun&#259;</option>
+                    <option>Un an</option>
+                    <option>Personalizat</option>
+                </select>				
+				</td>
+                
+            
+            </tr>
+            <tr>
+                <th>Etaje</th>
+				<td>
+                <ol type="I">
+                <li>
+                    Literatur&#259; rom&#226;n&#259;
+                    <ul>
+                        <li>Proz&#259;</li>
+                        <li>Poezie</li>
+                        <li>Critic&#259;</li>
+                    </ul>
+                </li>
+                <li>
+                    Literatur&#259; str&#259;in&#259;
+                    <ul>
+                        <li>Proz&#259;</li>
+                        <li>Poezie</li>
+                        <li>Reviste</li>
+                    </ul>
+                </li>
+				<li>
+                    Copii
+                    <ul>
+                        <li>Pove&#351;ti</li>
+                        <li>Basme</li>
+                        <li>Desene</li>
+                    </ul>
+                </li>
+            </ol>
+			</td>
+                
+            </tr>
+            <tr>
+                <th>Limbi</th>
+                <td> 
+				<ol type="A">
+                <li>Rom&#226;n&#259;</li>
+                <li>Englez&#259;</li>
+                <li>Francez&#259;</li>
+                <li>German&#259;</li>
+            </ol>
+
+            <ol type="a">
+                <li>Chinez&#259;</li>
+                <li>Coreean&#259;</li>
+                <li>Suedez&#259;</li>
+                <li>Rus&#259;</li>
+            </ol>
+				</td>
+                
+    
+			<tr>
+                <th>Gata</th>
+				<td><input type="submit" value="Submit"></td>
+                
+    
+            </tr>
+            
+        </table>
+   </form>
+   <a href="https://www.bjc.ro/new/">Biblioteca Jude&#355;ean&#259; Cluj </a>
+
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+ul {
+    padding: 20px;
+}
+
+ul li {
+    position: relative;
+    display: block;
+    left: 150px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    max-width: 20%;
+    min-height: 30%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;/*rotunjire colturi*/
+}
+/*poza inainte de text*/
+ul li::before {
+    position: absolute;
+    top: -20px;
+    left: -140px;
+    width: 128px;
+    height: 128px;
+    content: "";
+}
+/*coltul de la speech bubble*/
+ul li::after {
+    position: absolute;
+    top: 22px;
+    left: -13px;
+    width: 30px;
+    height: 18px;
+    background-color: white;
+    box-shadow: -1px 1px 0px black;
+    transform: skew(-15deg, -15deg) rotate(45deg);
+    content: "";
+}
+
+.alice::before {
+	width: 100px;
+	height: 100px;
+    background: url('bob-alice.png') 0 0;
+}
+.bob::before {
+	width: 100px;
+	height: 100px;
+    background: url('bob-alice.png') 0 -130px;
+}
